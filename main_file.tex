@@ -1,0 +1,103 @@
+%-----------------------------------------------------------------
+%Author: Yan Naing Aye
+%Date:   2012 Feb 24
+%-----------------------------------------------------------------
+\documentclass[12pt,a4paper]{report}      % Specifies the document class
+\usepackage{graphicx} %for pdf, bitmapped graphics files
+\usepackage{amsmath} %to facilitate writing math formulas and to improve the typographical quality
+\usepackage{amssymb}  %provides an extended symbol collection
+\usepackage{wasysym} %pro­vides many glyphs
+\usepackage{epstopdf} %converts eps to pdf
+\usepackage{xcolor} %color extensions (for tables)
+\usepackage{datetime} %date time
+\usepackage[pdftitle={Aye-Thesis},pdfauthor={Yan Naing Aye}]{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+\usepackage{lststyles}
+%-----------------------------------------------------------------
+%change to Burmese language
+\usepackage{burmese}
+%-----------------------------------------------------------------
+%Macros
+\def\titleSentence{မြန်မာဘာသာ အတွက် LaTeX Report ပုံစံ}
+% I use this title in several places throughout the report
+% that is why I define it as \titleSentence command 
+% so that I only need to change here and all will be updated accordingly
+%-----------------------------------------------------------------
+%Date format
+\newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}
+%-----------------------------------------------------------------
+% Define a new command called \los to include list of symbol easily.
+% It is used in ListOfSymbols.tex file
+\newcommand{\los}[2]{\parbox[t]{5cm}{$#1 \dotfill$}  \parbox[t]{10cm}{#2}\\[0.6cm]}                                                   
+%-----------------------------------------------------------------        
+\renewcommand{\baselinestretch}{1.5} %linespace
+%-----------------------------------------------------------------
+\pagestyle{headings}    %to use headings style
+%-----------------------------------------------------------------
+\makeatletter
+\def\input@path{{./Files/}}
+\makeatother
+\graphicspath{{./Fig/}}
+
+\begin{document}        %End of preamble and beginning of text.
+	\input{Title.tex} %Title page 
+	%-----------------------------------------------------------------------------
+	\newpage
+	\pagenumbering{roman}  %added it if has Acknowledgment
+	\begin{abstract}
+		\input{Abstract}
+	\end{abstract}
+	%-----------------------------------------------------------------
+	\newpage
+	\chapter*{ကျေးဇူးတင်လွှာ}
+	\addcontentsline{toc}{chapter}{ကျေးဇူးတင်လွှာ}
+	\input{Acknowledge}
+	% -----------------------------------------------------------------
+	\newpage
+	\addcontentsline{toc}{chapter}{မာတိကာ}
+	\tableofcontents
+	%------------------------------------------------------------------
+	\newpage
+	\addcontentsline{toc}{chapter}{ပုံများ}
+	\listoffigures
+	%-----------------------------------------------------------------
+	\newpage
+	\addcontentsline{toc}{chapter}{ဇယားများ}
+	\listoftables
+	\clearpage
+	%-----------------------------------------------------------------
+	\newpage
+	\markboth{သင်္ကေတများ}{သင်္ကေတများ}
+	\chapter*{သင်္ကေတများ\hfill} 
+	\addcontentsline{toc}{chapter}{သင်္ကေတများ}
+	\input{ListOfSymbols}
+	\clearpage
+	%-----------------------------------------------------------------
+	\newpage
+	\pagenumbering{arabic}
+	\setcounter{page}{1}
+	%-----------------------------------------------------------------
+	%For code listing number
+	\renewcommand{\thelstlisting}{\burmesecounter{chapter}.\burmesecounter{lstlisting}}
+	%-----------------------------------------------------------------
+\input{Ch_Intro}
+%-----------------------------------------------------------------
+\input{Ch_Description}
+%-----------------------------------------------------------------
+\input{Ch_Conclusion}
+%-----------------------------------------------------------------
+\appendix
+\input{ApErr}
+%-----------------------------------------------------------------
+\bibliographystyle{ieeetr}
+\bibliography{./Files/Ref}
+\addcontentsline{toc}{chapter}{အကိုးအကားများ}
+% -----------------------------------------------------------------
+\end{document}
+% -----------------------------------------------------------------

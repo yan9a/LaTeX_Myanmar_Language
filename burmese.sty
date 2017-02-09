@@ -1,0 +1,79 @@
+\ProvidesPackage{burmese}[2017/02/09 Burmese Language Package]
+
+\RequirePackage{fontspec}
+%-----------------------------------------------------------------
+\DeclareOption{MyanmarText}{
+	\setmainfont{Myanmar Text}
+}
+
+\DeclareOption{Pyidaungsu}{
+	\setmainfont{Pyidaungsu}
+}
+
+\DeclareOption{Padauk}{
+	\setmainfont{Padauk}
+}
+
+\ExecuteOptions{MyanmarText}
+\ProcessOptions\relax
+%-----------------------------------------------------------------
+\makeatletter
+\def\@burmesenumber#1{\expandafter\@@burmesenumber\number#1\@nil}
+\def\@@burmesenumber#1{%
+	\ifx#1\@nil
+	\else
+	\char\numexpr#1+"1040\relax
+	\expandafter\@@burmesenumber\fi}
+\def\burmesecounter#1{\expandafter\@burmesenumber\csname c@#1\endcsname}
+\def\burmesenumeral#1{\@@burmesenumber#1\@nil}
+\makeatother
+%-----------------------------------------------------------------
+\newcommand{\mmmonthname}[1][]{
+	\ifcase 
+	#1 
+	\or ဇန်နဝါရီ
+	\or ဖေဖော်ဝါရီ
+	\or မတ်
+	\or ဧပြီ
+	\or မေ
+	\or ဇွန်
+	\or ဇူလိုင်
+	\or သြဂုတ်
+	\or စက်တင်ဘာ
+	\or အောက်တိုဘာ
+	\or နိုဝင်ဘာ
+	\or ဒီဇင်ဘာ
+	\fi
+}
+\makeatletter
+\let\c@year\year
+\makeatother
+%\setcounter{year}{2017}
+\renewcommand{\THEYEAR}{\burmesecounter{year}}
+\renewcommand{\monthname}{\mmmonthname}
+%-----------------------------------------------------------------
+\renewcommand{\bibname}{အကိုးအကားများ}%change Bibliography       
+\renewcommand{\contentsname}{မာတိကာ}                 
+\renewcommand{\listfigurename}{ပုံများ}
+\renewcommand{\listtablename}{ဇယားများ} 
+\renewcommand{\chaptername}{အခန်း}
+\renewcommand{\figurename}{ပုံ}
+\renewcommand{\lstlistingname}{စာရင်း}
+\renewcommand{\abstractname}{အနှစ်ချုပ်}
+%-----------------------------------------------------------------
+\renewcommand{\thepage}{\burmesecounter{page}}	
+\renewcommand{\thechapter}{\burmesecounter{chapter}}
+\renewcommand{\thesection}{\burmesecounter{chapter}.\burmesecounter{section}}
+\renewcommand{\thesubsection}{\burmesecounter{chapter}.\burmesecounter{section}.\burmesecounter{subsection}}
+\renewcommand{\thefigure}{\burmesecounter{chapter}.\burmesecounter{figure}}
+\renewcommand{\thetable}{\burmesecounter{chapter}.\burmesecounter{table}}
+%-----------------------------------------------------------------
+\let\oldpagenumbering\pagenumbering
+\renewcommand{\pagenumbering}[1]{
+	\oldpagenumbering{#1}
+	\ifthenelse{\equal{#1}{arabic}}{
+	\renewcommand{\thepage}{\burmesecounter{page}}
+	}{}
+}
+
+\endinput

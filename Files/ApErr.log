@@ -1,0 +1,214 @@
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100 64-bit) (preloaded format=xelatex 2017.2.2)  9 FEB 2017 22:49
+entering extended mode
+**./ApErr.tex
+(ApErr.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 76 language(s) loaded.
+! Undefined control sequence.
+l.3 \section
+            {Code listing အတွက် စာရင်း}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \section{C
+              ode listing အတွက် စာရင်း}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no အ in font nullfont!
+Missing character: There is no တ in font nullfont!
+Missing character: There is no ွ in font nullfont!
+Missing character: There is no က in font nullfont!
+Missing character: There is no ် in font nullfont!
+Missing character: There is no စ in font nullfont!
+Missing character: There is no ာ in font nullfont!
+Missing character: There is no ရ in font nullfont!
+Missing character: There is no င in font nullfont!
+Missing character: There is no ် in font nullfont!
+Missing character: There is no း in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 3--4
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 C
+     ode listing (စာရင်း) များ၏ စာရင်းက�...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no စ in font nullfont!
+Missing character: There is no ာ in font nullfont!
+Missing character: There is no ရ in font nullfont!
+Missing character: There is no င in font nullfont!
+Missing character: There is no ် in font nullfont!
+Missing character: There is no း in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no မ in font nullfont!
+Missing character: There is no ျ in font nullfont!
+Missing character: There is no ာ in font nullfont!
+Missing character: There is no း in font nullfont!
+Missing character: There is no ၏ in font nullfont!
+Missing character: There is no စ in font nullfont!
+Missing character: There is no ာ in font nullfont!
+Missing character: There is no ရ in font nullfont!
+Missing character: There is no င in font nullfont!
+Missing character: There is no ် in font nullfont!
+Missing character: There is no း in font nullfont!
+Missing character: There is no က in font nullfont!
+Missing character: There is no ိ in font nullfont!
+Missing character: There is no ု in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ၏ in font nullfont!
+Missing character: There is no အ in font nullfont!
+Missing character: There is no စ in font nullfont!
+Missing character: There is no တ in font nullfont!
+Missing character: There is no ွ in font nullfont!
+Missing character: There is no င in font nullfont!
+Missing character: There is no ် in font nullfont!
+Missing character: There is no စ in font nullfont!
+Missing character: There is no ာ in font nullfont!
+Missing character: There is no ရ in font nullfont!
+Missing character: There is no င in font nullfont!
+Missing character: There is no ် in font nullfont!
+Missing character: There is no း in font nullfont!
+Missing character: There is no လ in font nullfont!
+Missing character: There is no ု in font nullfont!
+Missing character: There is no ပ in font nullfont!
+Missing character: There is no ် in font nullfont!
+Missing character: There is no ၍ in font nullfont!
+Missing character: There is no ဖ in font nullfont!
+Missing character: There is no ေ in font nullfont!
+Missing character: There is no ာ in font nullfont!
+Missing character: There is no ် in font nullfont!
+Missing character: There is no ပ in font nullfont!
+Missing character: There is no ြ in font nullfont!
+Missing character: There is no လ in font nullfont!
+Missing character: There is no ိ in font nullfont!
+Missing character: There is no ု in font nullfont!
+Missing character: There is no ပ in font nullfont!
+Missing character: There is no ါ in font nullfont!
+Missing character: There is no က in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no ဖ in font nullfont!
+Missing character: There is no ိ in font nullfont!
+Missing character: There is no ု in font nullfont!
+Missing character: There is no င in font nullfont!
+Missing character: There is no ် in font nullfont!
+Missing character: There is no တ in font nullfont!
+Missing character: There is no ွ in font nullfont!
+Missing character: There is no င in font nullfont!
+Missing character: There is no ် in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 5--6
+[]
+ []
+
+
+Overfull \hbox (435.7462pt too wide) in paragraph at lines 8--8
+[]\OT1/cmtt/m/n/10 \renewcommand{\thelstlisting}{\burmesecounter{chapter}.\burm
+esecounter{lstlisting}}[] 
+ []
+
+Missing character: There is no က in font nullfont!
+Missing character: There is no ိ in font nullfont!
+Missing character: There is no ု in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no လ in font nullfont!
+Missing character: There is no ု in font nullfont!
+Missing character: There is no ပ in font nullfont!
+Missing character: There is no ် in font nullfont!
+Missing character: There is no ၍ in font nullfont!
+Missing character: There is no ထ in font nullfont!
+Missing character: There is no ည in font nullfont!
+Missing character: There is no ် in font nullfont!
+Missing character: There is no ့ in font nullfont!
+Missing character: There is no ရ in font nullfont!
+Missing character: There is no န in font nullfont!
+Missing character: There is no ် in font nullfont!
+Missing character: There is no လ in font nullfont!
+Missing character: There is no ိ in font nullfont!
+Missing character: There is no ု in font nullfont!
+Missing character: There is no သ in font nullfont!
+Missing character: There is no ည in font nullfont!
+Missing character: There is no ် in font nullfont!
+Missing character: There is no ။ in font nullfont!
+)
+! Emergency stop.
+<*> ./ApErr.tex
+               
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 8 strings out of 428404
+ 64 string characters out of 3160538
+ 53160 words of memory out of 3000000
+ 3505 multiletter control sequences out of 15000+200000
+ 3808 words of font info for 15 fonts, out of 3000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 18i,1n,14p,115b,156s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.

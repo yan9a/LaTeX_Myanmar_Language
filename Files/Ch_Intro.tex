@@ -1,0 +1,37 @@
+\chapter{မိတ်ဆက်}
+\label{ch:Introduction}
+
+မြန်မာဘာသာဖြင့် ရေးသား ထားသည် များကို အသုံးပြုရန် ယူနီကုဒ်ကို ထောက်ပံ့သော XeLaTeX ကို အသုံးပြုရန် လိုသည်။ 
+%------------------------------------------------------------------------------
+\section{TeXstudio ကို Configure လုပ်ခြင်း}
+
+နမူနာ အနေနှင့် အသုံးများသော LaTeX editor တစ်ခုဖြစ်သည့် TeXstudio ကိုသုံးမည်။
+အောက်ပါ ဇယား~\ref{tbl_eg} တွင် အသုံးပြုထားသည့် style ဖိုင်များကို ပြထားသည်။
+
+\begin{table}[h]\footnotesize
+	\centering	
+	\caption{ဖိုင်များ၏ဇယား။}
+\begin{tabular}{| c | c | }	
+	\hline
+	ဖိုင်  & ဖော်ပြချက် \\
+	\hline
+	burmese.sty & မြန်မာစာ ပြောင်းပေးသည့် ဖိုင်။  \\
+	\hline
+	lststyles.sty & code listing များ၏ စတိုင်။  \\
+	\hline
+\end{tabular}
+	\label{tbl_eg}
+\end{table}
+
+\section{ဖောင့်ပြင်ခြင်း}
+
+အသုံးပြုသည့် မြန်မာဖောင့်ကို ပြင်လိုပါက burmese.sty ဖိုင်တွင် ပြင်ရမည်။
+ ဥပမာ Pyidaungsu ဖောင့်သုံးလိုပါက
+\begin{lstlisting}[style=myTeX,caption={မူရင်ဖောင့် သတ်မှတ်ချက်။},label={lstMTFont}]
+\setmainfont{Myanmar Text}
+\end{lstlisting}
+ နေရာတွင်
+\begin{lstlisting}[style=myTeX,caption={ဖောင့်အမည်ကိုပြင်ခြင်း။},label={lstPDFont}]
+\setmainfont{Pyidaungsu}
+\end{lstlisting}
+ ဟုပြင်နိုင်သည်။ 

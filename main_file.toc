@@ -1,0 +1,13 @@
+\contentsline {chapter}{ကျေးဇူးတင်လွှာ}{i}{chapter*.1}
+\contentsline {chapter}{မာတိကာ}{ii}{chapter*.1}
+\contentsline {chapter}{ပုံများ}{iii}{chapter*.2}
+\contentsline {chapter}{ဇယားများ}{iv}{chapter*.3}
+\contentsline {chapter}{သင်္ကေတများ}{v}{chapter*.5}
+\contentsline {chapter}{\numberline {\char \numexpr 1+"1040\relax }မိတ်ဆက်}{\char \numexpr 1+"1040\relax }{chapter.1}
+\contentsline {section}{\numberline {\char \numexpr 1+"1040\relax .\char \numexpr 1+"1040\relax }TeXstudio ကို Configure လုပ်ခြင်း}{\char \numexpr 1+"1040\relax }{section.1.1}
+\contentsline {section}{\numberline {\char \numexpr 1+"1040\relax .\char \numexpr 2+"1040\relax }ဖောင့်ပြင်ခြင်း}{\char \numexpr 1+"1040\relax }{section.1.2}
+\contentsline {chapter}{\numberline {\char \numexpr 2+"1040\relax }ပုံစံကိုစိတ်တိုင်းကျပြုပြင်ခြင်း}{\char \numexpr 3+"1040\relax }{chapter.2}
+\contentsline {chapter}{\numberline {\char \numexpr 3+"1040\relax }နိဂုံး}{\char \numexpr 4+"1040\relax }{chapter.3}
+\contentsline {chapter}{\numberline {A}ဖြည့်စွက်ချက်}{\char \numexpr 5+"1040\relax }{appendix.A}
+\contentsline {section}{\numberline {\char \numexpr 1+"1040\relax .\char \numexpr 1+"1040\relax }မြန်မာပြန်ဆိုချက်များ}{\char \numexpr 5+"1040\relax }{section.A.1}
+\contentsline {chapter}{အကိုးအကားများ}{\char \numexpr 6+"1040\relax }{appendix*.6}
