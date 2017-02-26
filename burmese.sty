@@ -1,5 +1,7 @@
-\ProvidesPackage{burmese}[2017/02/09 Burmese Language Package]
-
+\ProvidesPackage{burmese}[2017/02/27 Burmese Language Package]
+% A style for burmese language reports
+% Author: Yan Naing Aye
+% https://github.com/yan9a/LaTeX_Myanmar_Language
 \RequirePackage{fontspec}
 %-----------------------------------------------------------------
 \DeclareOption{MyanmarText}{
@@ -67,6 +69,7 @@
 \renewcommand{\thesubsection}{\burmesecounter{chapter}.\burmesecounter{section}.\burmesecounter{subsection}}
 \renewcommand{\thefigure}{\burmesecounter{chapter}.\burmesecounter{figure}}
 \renewcommand{\thetable}{\burmesecounter{chapter}.\burmesecounter{table}}
+\renewcommand{\theequation}{\burmesecounter{chapter}.\burmesecounter{equation}}
 %-----------------------------------------------------------------
 \let\oldpagenumbering\pagenumbering
 \renewcommand{\pagenumbering}[1]{
